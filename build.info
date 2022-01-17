@@ -1,0 +1,1 @@
+pyinstaller -y -F -w --add-data data:data -i /home/ts13/Projekte/torben-trinkt/icon.ico /home/ts13/Projekte/torben-trinkt/torben-trinkt.py

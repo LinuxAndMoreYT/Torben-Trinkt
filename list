@@ -1,0 +1,548 @@
+ts13@Nicks-PC:~$ cd Projekte/torben-trinkt/
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 167
+    global game_speed, x_pos_bg, y_pos_bg, points, obstacles points
+                                                             ^
+SyntaxError: invalid syntax
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:253: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:253: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 283, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 280, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 178, in main
+    if (points) < 300:
+NameError: name 'points' is not defined
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:248: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 278, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 275, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 179, in main
+    text = font.render("Kohlsuppen: " + str(points), True, (255, 0, 0))
+UnboundLocalError: local variable 'font' referenced before assignment
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:248: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 195
+    dev ussr():
+        ^
+SyntaxError: invalid syntax
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:255: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:255: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 285, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 282, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 235, in main
+    score()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 188, in score
+    if str(points) > 300:
+TypeError: '>' not supported between instances of 'str' and 'int'
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:255: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 285, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 282, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 235, in main
+    score()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 188, in score
+    if (pkt) > 300:
+TypeError: '>' not supported between instances of 'str' and 'int'
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 187
+    if (points) = 300:
+                ^
+SyntaxError: invalid syntax
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:254: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:254: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 284, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 281, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 232, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 281, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 234, in main
+    score()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 188, in score
+    ussr()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 196, in ussr
+    pygame.mixer.music.fadeout()
+TypeError: function takes exactly 1 argument (0 given)
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:254: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 284, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 281, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 232, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 281, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 232, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 281, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 232, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 281, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 232, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 281, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 232, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 281, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 234, in main
+    score()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 188, in score
+    ussr()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 195, in ussr
+    pygame.mixer.music.fadeout()
+TypeError: function takes exactly 1 argument (0 given)
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:254: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:254: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:254: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ 
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:254: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+Getötet
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:254: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:255: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:256: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:257: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:257: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:257: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+^[[Ats13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:257: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+^CTraceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 287, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 284, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 235, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 284, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 235, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 261, in GUI
+    SCREEN.blit(Blur, (0, 0)) 
+KeyboardInterrupt
+
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:257: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:257: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:257: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:261: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:199: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+^CTraceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 291, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 288, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 239, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 265, in GUI
+    SCREEN.blit(Blur, (0, 0)) 
+KeyboardInterrupt
+
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 253
+    if ussr = True:
+            ^
+SyntaxError: invalid syntax
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 197
+    ("ussr") = True
+     ^
+SyntaxError: cannot assign to literal
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 202
+    ("ussr") = False
+     ^
+SyntaxError: cannot assign to literal
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 253
+    if (ussr) = True:
+              ^
+SyntaxError: invalid syntax
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 293, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 253, in GUI
+    if (ussr) == True:
+NameError: name 'ussr' is not defined
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 293, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 253, in GUI
+    if (ussr) == True:
+NameError: name 'ussr' is not defined
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:265: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:129: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:264: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:129: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:257: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 197
+    text = font.render("Level 2 - Kommunismus - Freigeschalten"), True, (255, 255, 255))
+                                                                                       ^
+SyntaxError: unmatched ')'
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:260: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Assertion 'e->mainloop->n_enabled_defer_events > 0' failed at pulse/mainloop.c:257, function mainloop_defer_enable(). Aborting.
+Abgebrochen
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:260: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:260: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:260: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:260: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:127: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+^CTraceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 290, in <module>
+    if event.type == pygame.KEYDOWN:
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 287, in GUI
+    pygame.quit()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 238, in main
+    obstacle.update()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 254, in GUI
+    pygame.mixer.music.stop()
+  File "/usr/lib/python3/dist-packages/pygame/pkgdata.py", line 34, in getResource
+    def getResource(identifier, pkgname=__name__):
+KeyboardInterrupt
+^[[A
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:264: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+^CTraceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 294, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 291, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 242, in main
+    GUI(death_count)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 291, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 244, in main
+    score()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 190, in score
+    ussr()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 204, in ussr
+    text = font.render("Level 2 - Kommunismus - Freigeschalten", True, (255, 255, 255))
+KeyboardInterrupt
+
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:261: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:263: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:263: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:263: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:263: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:204: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  textRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2.5)
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:263: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:204: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  textRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2.3)
+^CTraceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 293, in <module>
+    
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 290, in GUI
+    if event.type == pygame.KEYDOWN:
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 241, in main
+    death_count += 1
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 290, in GUI
+    if event.type == pygame.KEYDOWN:
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 241, in main
+    death_count += 1
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 256, in GUI
+    while run:
+KeyboardInterrupt
+
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:264: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:205: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  textRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2.3)
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:264: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:205: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  textRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2.3)
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:264: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:205: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  textRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2.3)
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ python3 torben-trinkt.py 
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:267: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  highRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 1.7)
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:128: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  self.dino_rect.y -= self.jump_vel * 4
+/home/ts13/Projekte/torben-trinkt/torben-trinkt.py:205: DeprecationWarning: an integer is required (got type float).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  textRect.center = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2.3)
+Traceback (most recent call last):
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 297, in <module>
+    GUI(death_count=0)
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 294, in GUI
+    main()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 247, in main
+    score()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 190, in score
+    ussr()
+  File "/home/ts13/Projekte/torben-trinkt/torben-trinkt.py", line 209, in ussr
+    self.dino_duck = False
+NameError: name 'self' is not defined
+ts13@Nicks-PC:~/Projekte/torben-trinkt$ 
